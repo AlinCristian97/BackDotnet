@@ -14,9 +14,6 @@ namespace BackDotnet.Controllers
             _configuration = configuration;
         }
 
-        [HttpGet("Ping")]
-        public IActionResult Ping() => StatusCode(StatusCodes.Status200OK);
-
         [HttpGet("GetEnvironment")]
         public IActionResult GetEnvironment()
         {
