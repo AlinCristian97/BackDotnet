@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.6.33723.286
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BackDotnet", "BackDotnet\BackDotnet.csproj", "{7FCF6C3A-6FCB-4555-84E3-9B81871CA057}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{7FCF6C3A-6FCB-4555-84E3-9B81871CA057}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7FCF6C3A-6FCB-4555-84E3-9B81871CA057}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7FCF6C3A-6FCB-4555-84E3-9B81871CA057}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7FCF6C3A-6FCB-4555-84E3-9B81871CA057}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {B9927A42-C1BB-41E4-93B6-8DF8C1235398}
+	EndGlobalSection
+EndGlobal
