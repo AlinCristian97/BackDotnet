@@ -1,7 +1,7 @@
 namespace BackDotnet.Tests.UnitTests;
 
 [TestFixture]
-public class CalculatorTests
+public class DummyTests
 {
     private CalculatorForDummyTests _calculator;
 
