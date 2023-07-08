@@ -5,7 +5,13 @@ VisualStudioVersion = 17.6.33723.286
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BackDotnet", "BackDotnet\BackDotnet.csproj", "{7FCF6C3A-6FCB-4555-84E3-9B81871CA057}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BackDotnet.Tests", "BackDotnet.Tests\BackDotnet.Tests.csproj", "{F27360F3-B288-44FD-ADDD-E26B2CCDA785}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BackDotnet.Tests", "BackDotnet.Tests\BackDotnet.Tests.csproj", "{F27360F3-B288-44FD-ADDD-E26B2CCDA785}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BackDotnet.Core", "BackDotnet.Core\BackDotnet.Core.csproj", "{262FCE9B-350A-4376-AC78-EE4E2B4AC65B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BackDotnet.Application", "BackDotnet.Application\BackDotnet.Application.csproj", "{F57F5587-BE2F-4265-A3F4-34D773E16EA4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BackDotnet.Infrastructure", "BackDotnet.Infrastructure\BackDotnet.Infrastructure.csproj", "{5DD2DC23-BC32-44E5-9EDE-154070D2E2EB}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +27,18 @@ Global
 		{F27360F3-B288-44FD-ADDD-E26B2CCDA785}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F27360F3-B288-44FD-ADDD-E26B2CCDA785}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F27360F3-B288-44FD-ADDD-E26B2CCDA785}.Release|Any CPU.Build.0 = Release|Any CPU
+		{262FCE9B-350A-4376-AC78-EE4E2B4AC65B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{262FCE9B-350A-4376-AC78-EE4E2B4AC65B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{262FCE9B-350A-4376-AC78-EE4E2B4AC65B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{262FCE9B-350A-4376-AC78-EE4E2B4AC65B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F57F5587-BE2F-4265-A3F4-34D773E16EA4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F57F5587-BE2F-4265-A3F4-34D773E16EA4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F57F5587-BE2F-4265-A3F4-34D773E16EA4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F57F5587-BE2F-4265-A3F4-34D773E16EA4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5DD2DC23-BC32-44E5-9EDE-154070D2E2EB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5DD2DC23-BC32-44E5-9EDE-154070D2E2EB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5DD2DC23-BC32-44E5-9EDE-154070D2E2EB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5DD2DC23-BC32-44E5-9EDE-154070D2E2EB}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
