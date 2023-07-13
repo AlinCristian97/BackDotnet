@@ -45,12 +45,28 @@ namespace BackDotnet.Infrastructure.Repositories
 
         public Task<int> Delete(int id)
         {
-            throw new NotImplementedException();
+            Fruit fruitToDelete = fruits.FirstOrDefault(fruit => fruit.Id == id);
+
+            if (fruitToDelete != null)
+            {
+                fruits.Remove(fruitToDelete);
+                return Task.FromResult(fruitToDelete.Id);
+            }
+
+            throw new InvalidOperationException($"Fruit with Id {id} does not exist.");
         }
 
         public Task<Fruit> Get(int id)
         {
-            throw new NotImplementedException();
+            Fruit searchedFruit = fruits.FirstOrDefault(fruit => fruit.Id == id);
+
+            if (searchedFruit != null)
+            {
+                fruits.Remove(searchedFruit);
+                return Task.FromResult(searchedFruit);
+            }
+
+            throw new InvalidOperationException($"Fruit with Id {id} could not be found.");
         }
 
         public Task<IEnumerable<Fruit>> GetAll()
@@ -60,7 +76,15 @@ namespace BackDotnet.Infrastructure.Repositories
 
         public Task<int> Update(Fruit entity)
         {
-            throw new NotImplementedException();
+            Fruit fruitToUpdate = fruits.FirstOrDefault(entity);
+
+            if (fruitToUpdate != null)
+            {
+                fruitToUpdate = entity;
+                return Task.FromResult(fruitToUpdate.Id);
+            }
+
+            throw new InvalidOperationException($"The fruit you are trying to update does not exist.");
         }
     }
 }
